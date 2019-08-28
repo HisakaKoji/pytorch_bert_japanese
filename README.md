@@ -43,6 +43,12 @@ $ pip install pyknp
 [PyTorch](https://pytorch.org/)
 
 ## 実行する
+
+1.description2bert.py でベクトルに変換
+2.genre2value.py      genreをラベルに変換
+3.description_predict.py 　学習　解析
+
+
 本レポジトリの`bert_juman.py`から`BertWithJumanModel`クラスをインポートします。クラスの引数には、ダウンロードした日本語の学習済みBERTモデルのディレクトリを指定します。必要なファイルは`pytorch_model.bin`と`vocab.txt`のみです。
 
 
